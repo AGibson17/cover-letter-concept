@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
-@import './colors';
+@use './colors';
 
 body {
   margin: 0;
-  font-family: $font-sans;
-  background-color: $color-bg-default;
-  color: $color-text-default;
+  font-family: colors.$font-sans;
+  background-color: colors.$color-bg-default;
+  color: colors.$color-text-default;
   line-height: 1.6;
 }
 
 h1, h2, h3, h4 {
   font-weight: 700;
-  color: $color-primary;
+  color: colors.$color-primary;
   margin-bottom: 0.5em;
 }
 
