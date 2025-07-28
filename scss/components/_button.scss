@@ -1,0 +1,48 @@
+@use '../colors' as colors;
+@use 'sass:color';
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+  text-decoration: none;
+
+  &.primary {
+    background-color: colors.$color-primary;
+    color: colors.$color-white;
+
+    &:hover {
+      background-color: color.adjust(colors.$color-primary, $lightness: 5%);
+      transform: scale(1.03);
+    }
+
+    &:active {
+      transform: scale(0.97);
+    }
+  }
+
+  &.ghost {
+    background: transparent;
+    color: colors.$color-gray-600;
+
+    &:hover {
+      color: colors.$color-primary;
+    }
+  }
+
+  &.icon-right > svg {
+    margin-left: 0.5rem;
+  }
+
+  &.icon-left > svg {
+    margin-right: 0.5rem;
+  }
+}

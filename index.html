@@ -1,24 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Zimmer Biomet Digital Cover Letter</title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <h1>Test Header</h1>
-  <p>This is a test of the Zimmer Biomet component system.</p>
-  <div class="modal" id="coverLetterModal" style="display: none;">
-  <div class="modal-backdrop" onclick="closeModal()"></div>
-  <div class="modal-card">
-    <button class="modal-close" onclick="closeModal()">×</button>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Zimmer Biomet Digital Cover Letter</title>
+    <link rel="stylesheet" href="/wwwroot/css/main.css" />
+  </head>
+  <body>
+    <div class="intro-wrapper">
+    <div id="introView" class="intro-view">
+      <div class="intro-icon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon"
+          width="32"
+          height="32"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="white"
+          stroke-width="2"
+        >
+          <path d="M2 7h20v14H2z"></path>
+          <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"></path>
+        </svg>
+      </div>
 
-    <!-- Dynamic content goes here -->
-    <div id="introView"> ... </div>
-    <div id="metricsView" style="display: none;"> ... </div>
-  </div>
+      <h1>Andrew Gibson</h1>
+      <p class="subtitle">Learning Experience Designer</p>
+
+      <div class="meta">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon-sm"
+          width="16"
+          height="16"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path d="M4 4h16v16H4z"></path>
+          <path d="M8 10h8M8 14h5"></path>
+        </svg>
+        <span>Digital Cover Letter for Zimmer Biomet</span>
+      </div>
+
+      <button class="button primary icon-right" onclick="openModal()">
+        View Cover Letter
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          stroke="currentColor"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M5 12h14M13 5l7 7-7 7"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
+
+      <p class="lead">
+        Discover how I transformed customer service training with measurable
+        results and modern learning design principles.
+      </p>
+    </div>
 </div>
-<script src="js/main.js"></script>
-
-</body>
+    <script src="js/main.js"></script>
+  </body>
 </html>

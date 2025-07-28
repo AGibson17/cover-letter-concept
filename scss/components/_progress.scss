@@ -1,0 +1,32 @@
+@use '../colors' as colors;
+
+.progress {
+  height: 0.5rem;
+  background-color: colors.$color-gray-300;
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: 0.5rem;
+
+  .fill {
+    height: 100%;
+    width: 0%;
+    background-color: colors.$color-primary;
+    transition: width 0.6s ease-in-out;
+  }
+
+  &.accent .fill {
+    background-color: colors.$color-accent;
+  }
+
+  &.green .fill {
+    background-color: colors.$color-icon-2;
+  }
+
+  &.purple .fill {
+    background-color: colors.$color-bg-strong;
+  }
+
+  &.fuchsia .fill {
+    background-color: colors.$color-icon-1;
+  }
+}

@@ -18,7 +18,7 @@
 
 .modal-card {
   position: relative;
-  background-color: $color-bg-default;
+  background-color: colors.$color-bg-default;
   max-width: 960px;
   max-height: 90vh;
   overflow-y: auto;
@@ -36,10 +36,10 @@
   background: none;
   border: none;
   font-size: 1.5rem;
-  color: $color-gray-600;
+  color: colors.$color-gray-600;
   cursor: pointer;
 
   &:hover {
-    color: $color-primary;
+    color: colors.$color-primary;
   }
 }

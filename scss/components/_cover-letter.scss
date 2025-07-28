@@ -1,0 +1,40 @@
+@use '../colors' as colors;
+
+.cover-header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+
+  img {
+    height: 42px;
+    width: auto;
+  }
+}
+
+.cover-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: colors.$color-primary;
+  margin-bottom: 0.5rem;
+}
+
+.cover-underline {
+  width: 64px;
+  height: 4px;
+  background-color: colors.$color-icon-2;
+  border-radius: 99px;
+  margin: 0 auto 2rem;
+}
+
+.cover-body {
+  font-size: 1rem;
+  color: colors.$color-text-default;
+  line-height: 1.75;
+  margin-bottom: 2.5rem;
+
+  p {
+    margin-bottom: 1.5rem;
+  }
+}

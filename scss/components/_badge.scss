@@ -1,0 +1,34 @@
+@use '../colors' as colors;
+@use 'sass:color';
+
+.badge {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 999px;
+  border: 2px solid colors.$color-gray-300;
+  color: colors.$color-text-default;
+  background-color: colors.$color-white;
+  transition: border-color 0.2s ease;
+
+  &.tech {
+    border-color: colors.$color-secondary;
+
+    &:hover {
+      border-color: color.adjust(colors.$color-secondary, $lightness: 10%);
+    }
+  }
+
+  &.accent {
+    background-color: colors.$color-accent;
+    color: colors.$color-white;
+    border-color: colors.$color-accent;
+  }
+
+  &.ghost {
+    background: transparent;
+    color: colors.$color-gray-600;
+    border-color: colors.$color-gray-300;
+  }
+}

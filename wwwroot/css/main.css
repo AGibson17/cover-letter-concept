@@ -208,6 +208,7 @@ button {
   color: #6c757d;
 }
 
+/* Intro component styles */
 .intro-wrapper {
   display: flex;
   align-items: center;
@@ -260,12 +261,19 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 8px 25px rgba(43, 43, 128, 0.3);
 }
 .intro-view .intro-icon .icon {
   stroke: #ffffff;
 }
 .intro-view .button {
   margin-top: 0.5rem;
+  box-shadow: 0 4px 15px rgba(43, 43, 128, 0.25);
+  transition: all 0.2s ease;
+}
+.intro-view .button:hover {
+  box-shadow: 0 6px 20px rgba(43, 43, 128, 0.35);
+  transform: translateY(-2px);
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,30 @@
+@use '../colors' as colors;
+
+.timeline-step {
+  text-align: center;
+
+  .step-badge {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto 0.75rem;
+    border-radius: 50%;
+    background-color: colors.$color-primary;
+    color: colors.$color-white;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.125rem;
+  }
+
+  .step-title {
+    font-weight: 600;
+    color: colors.$color-secondary;
+    margin-bottom: 0.25rem;
+  }
+
+  .step-desc {
+    font-size: 0.875rem;
+    color: colors.$color-text-muted;
+  }
+}

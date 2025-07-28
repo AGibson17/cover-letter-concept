@@ -1,5 +1,11 @@
 @use './colors';
 @use './base';
 @use './components/modal';
+@use './components/button';
+@use './components/card';
+@use './components/badge';
+@use './components/progress';
+@use './components/timeline';
+@use './components/intro';
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
