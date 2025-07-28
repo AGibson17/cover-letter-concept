@@ -7,12 +7,9 @@
 			"command": "sass",
 			"args": [
 				"scss/main.scss",
-				"css/styles.css"
+				"wwwroot/css/main.css"
 			],
 			"group": "build",
-			"problemMatcher": [
-				"$sass"
-			],
 			"isBackground": false
 		}
 	]

@@ -42,6 +42,8 @@ To make changes to styles:
 2. Compile using: `sass scss/main.scss wwwroot/css/main.css`
 3. Upload the updated `wwwroot/css/main.css` file
 
+**Note**: For development, install Sass: `npm install -g sass`
+
 ## Browser Support
 
 - Modern browsers (Chrome, Firefox, Safari, Edge)
