@@ -53,3 +53,7 @@ To make changes to styles:
 ## Contact
 
 Andrew Gibson - Learning Experience Designer
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
