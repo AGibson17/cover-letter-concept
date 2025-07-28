@@ -1,0 +1,28 @@
+// colors.scss
+
+// Primary Zimmer Colors
+$color-accent-legacy: #2178CA; // Pale Blue (Legacy accent)
+$color-bg-strong: #1C1137;     // Dark Purple (for headers or callouts)
+$color-header: #2B2B80;        // Purple (H2 and buttons)
+$color-icon-bg: #0083C0;       // Flat Blue (icon background)
+$color-icon-1: #960877;        // Darker Fuchsia (icon color)
+$color-icon-2: #0A8381;        // Pale Green (footer icon)
+
+// Neutrals
+$color-white: #ffffff;
+$color-black: #000000;
+$color-gray-100: #f8f9fa;
+$color-gray-300: #dee2e6;
+$color-gray-600: #6c757d;
+$color-gray-800: #343a40;
+
+// Typography
+$font-sans: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+// Semantic Tokens
+$color-primary: $color-header;
+$color-secondary: $color-icon-bg;
+$color-accent: $color-accent-legacy;
+$color-bg-default: $color-white;
+$color-text-default: $color-gray-800;
+$color-text-muted: $color-gray-600;

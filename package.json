@@ -1,0 +1,13 @@
+{
+  "name": "cover-letter",
+  "version": "1.0.0",
+  "description": "Cover letter website with SCSS compilation",
+  "scripts": {
+    "scss": "sass scss/main.scss css/styles.css",
+    "scss:watch": "sass --watch scss/main.scss css/styles.css",
+    "build": "sass scss/main.scss css/styles.css --style compressed"
+  },
+  "devDependencies": {
+    "sass": "^1.77.0"
+  }
+}
